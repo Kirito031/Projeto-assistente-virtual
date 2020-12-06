@@ -1,0 +1,2180 @@
+{
+  "intents": [
+    {
+      "intent": "Arquivos",
+      "examples": [
+        {
+          "text": "Como ver os arquivos guardados?"
+        },
+        {
+          "text": "Como ver os arquivos salvos no celular?"
+        },
+        {
+          "text": "Como ver os documentos salvos no celular?"
+        },
+        {
+          "text": "ver arquivos salvos no celular"
+        },
+        {
+          "text": "ver documentos salvos no celular"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Afirmativo! É por isso que eu estava procurando."
+        },
+        {
+          "text": "Bom trabalho."
+        },
+        {
+          "text": "Com certeza!"
+        },
+        {
+          "text": "Com certeza. Estou empolgado com isso."
+        },
+        {
+          "text": "É disso que preciso."
+        },
+        {
+          "text": "É exatamente disso que preciso."
+        },
+        {
+          "text": "Essa é a resposta apropriada."
+        },
+        {
+          "text": "Essa é a resposta certa."
+        },
+        {
+          "text": "Essa é a resposta pela qual procurava."
+        },
+        {
+          "text": "Está muito bom."
+        },
+        {
+          "text": "Eu gostei disso."
+        },
+        {
+          "text": "Genial!"
+        },
+        {
+          "text": "Ignore o que eu falei."
+        },
+        {
+          "text": "Isso está certo."
+        },
+        {
+          "text": "Muito bem. Vamos fazê-lo."
+        },
+        {
+          "text": "Nós precisamos exatamente disso."
+        },
+        {
+          "text": "Ótimo."
+        },
+        {
+          "text": "Sim, é isso!"
+        },
+        {
+          "text": "Você leu minha mente."
+        },
+        {
+          "text": "Você me entende."
+        }
+      ],
+      "description": "Confirme que a resposta satisfaz uma pergunta."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Esse assunto é inconveniente."
+        },
+        {
+          "text": "Esse assunto é irrelevante."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver com o que preciso."
+        },
+        {
+          "text": "Não é disso que preciso, vamos mudar de assunto."
+        },
+        {
+          "text": "Não quero falar desse assunto."
+        },
+        {
+          "text": "Não quero falar disso."
+        },
+        {
+          "text": "Não tenho mais o que falar sobre isso."
+        },
+        {
+          "text": "Podemos falar sobre outra coisa?"
+        },
+        {
+          "text": "Preciso de algo totalmente diferente."
+        },
+        {
+          "text": "Preciso de outra coisa."
+        },
+        {
+          "text": "Quero ajuda sobre outra coisa."
+        },
+        {
+          "text": "Quero falar de outra coisa."
+        },
+        {
+          "text": "Quero lidar com outro problema."
+        },
+        {
+          "text": "Sobre o que mais podemos falar?"
+        },
+        {
+          "text": "Vamos falar de outro assunto?"
+        },
+        {
+          "text": "Vamos falar sobre outra coisa."
+        },
+        {
+          "text": "Vamos mudar de assunto?"
+        },
+        {
+          "text": "Vamos mudar de assunto."
+        }
+      ],
+      "description": "Mude para um tópico diferente."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Acho que eu não fui claro."
+        },
+        {
+          "text": "A sua informação não está clara."
+        },
+        {
+          "text": "Como é?"
+        },
+        {
+          "text": "Desculpe! Poderia repetir mais uma vez?"
+        },
+        {
+          "text": "Diga isso novamente, por favor. Eu não ouvi."
+        },
+        {
+          "text": "Eu não entendi."
+        },
+        {
+          "text": "Eu não entendi bem o que você me disse."
+        },
+        {
+          "text": "Eu perdi a última parte. Poderia repetir?"
+        },
+        {
+          "text": "Eu preciso de mais informações."
+        },
+        {
+          "text": "Me desculpe, uma vez mais."
+        },
+        {
+          "text": "O que você me deu não é exatamente o que estou procurando."
+        },
+        {
+          "text": "O que você quer dizer com isso?"
+        },
+        {
+          "text": "Pode tentar dizê-lo com mais clareza, por favor?"
+        },
+        {
+          "text": "Preciso que você repita a informação."
+        },
+        {
+          "text": "Sobre o que você está falando?"
+        },
+        {
+          "text": "Suas informações estão confusas."
+        },
+        {
+          "text": "Você não entendeu o que eu disse."
+        },
+        {
+          "text": "Você não entendeu o que eu perguntei."
+        },
+        {
+          "text": "Você não foi claro."
+        },
+        {
+          "text": "Você pode repetir, por favor?"
+        }
+      ],
+      "description": "Repita ou esclareça a última declaração."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Eu estou de volta."
+        },
+        {
+          "text": "Eu não estou ouvindo, pode falar mais alto?"
+        },
+        {
+          "text": "Fale algo se você estiver aí."
+        },
+        {
+          "text": "Olá. Você está aí?"
+        },
+        {
+          "text": "Onde você está localizada? Não consigo ouvir nada."
+        },
+        {
+          "text": "O que está acontecendo?"
+        },
+        {
+          "text": "Tem alguém aí?"
+        },
+        {
+          "text": "Tem alguém na linha?"
+        },
+        {
+          "text": "Vamos quebrar o silêncio?"
+        },
+        {
+          "text": "Você ainda está aqui comigo?"
+        },
+        {
+          "text": "Você caiu?"
+        },
+        {
+          "text": "Você está aí?"
+        },
+        {
+          "text": "Você foi a algum lugar?"
+        },
+        {
+          "text": "Você ouviu o que eu disse?"
+        },
+        {
+          "text": "Você ouviu o que perguntei?"
+        },
+        {
+          "text": "Você precisa de mais tempo?"
+        }
+      ],
+      "description": "Peça ao robô para indicar que está disponível."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Deixe para lá."
+        },
+        {
+          "text": "Desconsidere meu último pedido."
+        },
+        {
+          "text": "Espere! Eu acho que quero fazer diferente."
+        },
+        {
+          "text": "Espere! Vamos voltar alguns passos atrás e recomeçar."
+        },
+        {
+          "text": "Esqueça isso, vamos tentar outra coisa."
+        },
+        {
+          "text": "Eu mudei de idéia."
+        },
+        {
+          "text": "Eu não queria fazer isso, na verdade, vamos voltar."
+        },
+        {
+          "text": "Eu percebi que não era isso o que eu queria."
+        },
+        {
+          "text": "Na verdade, retiro o que disse."
+        },
+        {
+          "text": "Podemos fazê-lo novamente?"
+        },
+        {
+          "text": "Vamos continuar do ponto anterior."
+        },
+        {
+          "text": "Vamos fazê-lo novamente!"
+        },
+        {
+          "text": "Vamos para o próximo passo."
+        },
+        {
+          "text": "Vamos voltar para o que eu disse originalmente."
+        },
+        {
+          "text": "Vamos voltar para o que eu pedi originalmente."
+        }
+      ],
+      "description": "Peça ao robô para voltar um passo atrás."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "A resposta está incorreta."
+        },
+        {
+          "text": "Essa não foi a minha intenção."
+        },
+        {
+          "text": "Essa parece ser a resposta errada."
+        },
+        {
+          "text": "Eu não acho que essa seja a resposta."
+        },
+        {
+          "text": "Eu não disse isso."
+        },
+        {
+          "text": "Eu não entendo o que você está dizendo."
+        },
+        {
+          "text": "Eu não falei sobre isso."
+        },
+        {
+          "text": "Eu não preciso disso."
+        },
+        {
+          "text": "Eu não quero isso."
+        },
+        {
+          "text": "Eu não quis dizer isso."
+        },
+        {
+          "text": "Isso estava errado, tente novamente."
+        },
+        {
+          "text": "Isso não é o que quero dizer."
+        },
+        {
+          "text": "Isso não estava correto. Esqueçamos."
+        },
+        {
+          "text": "Não é isso."
+        },
+        {
+          "text": "Não estou entendendo."
+        },
+        {
+          "text": "O que você me deu não é o que eu estava procurando."
+        },
+        {
+          "text": "O que você me deu não foi exatamente o que pedi."
+        },
+        {
+          "text": "Você está me entendendo mal."
+        },
+        {
+          "text": "Você não compreendeu o que perguntei."
+        },
+        {
+          "text": "Você não entendeu o que eu pedi."
+        },
+        {
+          "text": "Você não faz idéia."
+        }
+      ],
+      "description": "Indique que a resposta do robô não aborda uma questão."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Aguarde."
+        },
+        {
+          "text": "Deixe-me ver."
+        },
+        {
+          "text": "Estamos quase lá."
+        },
+        {
+          "text": "Eu preciso de um minuto."
+        },
+        {
+          "text": "Eu voltarei logo."
+        },
+        {
+          "text": "Já volto."
+        },
+        {
+          "text": "Me dê um minuto, por favor."
+        },
+        {
+          "text": "Me dê um segundo."
+        },
+        {
+          "text": "Pode me esperar, por favor?"
+        },
+        {
+          "text": "Por favor, aguarde."
+        },
+        {
+          "text": "Por favor aguarde minha volta."
+        },
+        {
+          "text": "Por favor espere um minuto"
+        },
+        {
+          "text": "Preciso de uma pausa."
+        },
+        {
+          "text": "Preciso de uma pausa, espere por favor."
+        },
+        {
+          "text": "Saí para uma pausa."
+        },
+        {
+          "text": "Só um minuto."
+        },
+        {
+          "text": "Volto logo."
+        },
+        {
+          "text": "Vou dar uma saída rápida."
+        },
+        {
+          "text": "Vou me afastar do teclado e voltar em seguida."
+        },
+        {
+          "text": "Vou sair e já volto."
+        }
+      ],
+      "description": "Indique um atraso no fornecimento de dados para o robô."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Como começar novamente?"
+        },
+        {
+          "text": "Como eu posso começar novamente?"
+        },
+        {
+          "text": "De volta ao começo."
+        },
+        {
+          "text": "De volta ao topo."
+        },
+        {
+          "text": "Eu preciso entender desde o começo."
+        },
+        {
+          "text": "Eu preciso reiniciar."
+        },
+        {
+          "text": "Eu quero ver desde o início."
+        },
+        {
+          "text": "Eu quero voltar ao topo"
+        },
+        {
+          "text": "Faça o pedido novamente"
+        },
+        {
+          "text": "Inicie novamente a partir do início"
+        },
+        {
+          "text": "Na verdade, vamos começar novamente."
+        },
+        {
+          "text": "Nós precisamos voltar ao início e começar novamente."
+        },
+        {
+          "text": "Pode repetir a partir do começo?"
+        },
+        {
+          "text": "Por favor inicie do começo."
+        },
+        {
+          "text": "Por favor não faça nada, vamos voltar."
+        },
+        {
+          "text": "Posso, favor, começar do início?"
+        },
+        {
+          "text": "Refaça-o."
+        },
+        {
+          "text": "Reinicie novamente desde o começo."
+        },
+        {
+          "text": "Tente novamente."
+        },
+        {
+          "text": "Tente uma vez mais."
+        },
+        {
+          "text": "Vá ao início."
+        },
+        {
+          "text": "Vamos começar novamente."
+        },
+        {
+          "text": "Vamos desistir disso e voltar ao começo."
+        },
+        {
+          "text": "Vamos reabrir isto novamente."
+        },
+        {
+          "text": "Vamos recomeçar do começo."
+        },
+        {
+          "text": "Vamos tentar isto de novo desde o começo."
+        }
+      ],
+      "description": "Reinicie o robô ou fluxo corrente."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Desculpe não poder te ajudar com isso."
+        },
+        {
+          "text": "Desculpe por não conseguir te ajudar."
+        },
+        {
+          "text": "Eu ainda não estou convencido."
+        },
+        {
+          "text": "Eu não sei do que você precisa."
+        },
+        {
+          "text": "Eu não sei o que te deixará feliz."
+        },
+        {
+          "text": "Eu não sei o que você deseja."
+        },
+        {
+          "text": "Eu não tenho idéia do que você está procurando."
+        },
+        {
+          "text": "Eu não tenho idéia, na verdade."
+        },
+        {
+          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
+        },
+        {
+          "text": "Me perdoe, mas não tenho uma resposta."
+        },
+        {
+          "text": "Não faço idéia."
+        },
+        {
+          "text": "Não posso te ajudar, desculpe."
+        },
+        {
+          "text": "Não sei a resposta para isso, me perdoe."
+        },
+        {
+          "text": "Não sei se entendi o que você deseja."
+        },
+        {
+          "text": "Não tenho a menor idéia."
+        },
+        {
+          "text": "Não tenho certeza se entendo o que você está dizendo."
+        },
+        {
+          "text": "Não tenho idéia."
+        },
+        {
+          "text": "Não tenho uma solução para isso."
+        },
+        {
+          "text": "O que você não me contaria?"
+        },
+        {
+          "text": "Para se honesto, eu não tenho certeza."
+        },
+        {
+          "text": "Você me pegou."
+        }
+      ],
+      "description": "Indique não haver uma resposta definitiva a uma pergunta."
+    },
+    {
+      "intent": "Cálculos",
+      "examples": [
+        {
+          "text": "Como faço um calculo?"
+        },
+        {
+          "text": "quero fazer um calculo"
+        },
+        {
+          "text": "quero usar a calculadora"
+        }
+      ],
+      "description": "Orientações sobre cálculos básicos"
+    },
+    {
+      "intent": "config_navegador",
+      "examples": [
+        {
+          "text": "como mudar as configurações do navegador?"
+        },
+        {
+          "text": "como mudo as configurações do navegador?"
+        },
+        {
+          "text": "configurar navegador"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "configuracoes_celular",
+      "examples": [
+        {
+          "text": "como acesso as configurações do celular?"
+        },
+        {
+          "text": "como vejo as configurações?"
+        },
+        {
+          "text": "quero acessar as configurações"
+        },
+        {
+          "text": "quero ver as configurações"
+        }
+      ],
+      "description": "aqui se encontram algumas perguntas sobre as configurações de smartphone"
+    },
+    {
+      "intent": "contatos_celular",
+      "examples": [
+        {
+          "text": "Como vejo os contatos do celular?"
+        },
+        {
+          "text": "quero ver os contatos do celular"
+        }
+      ],
+      "description": "Para perguntas sobre os contatos"
+    },
+    {
+      "intent": "continuando",
+      "examples": [
+        {
+          "text": "Deseja mais alguma coisa?"
+        },
+        {
+          "text": "há mais alguma duvida para essa ação?"
+        },
+        {
+          "text": "quero fazer uma pergunta"
+        },
+        {
+          "text": "Quer perguntar mais alguma coisa?"
+        }
+      ],
+      "description": "perguntará se quer continuar"
+    },
+    {
+      "intent": "Conversas",
+      "examples": [
+        {
+          "text": "quero ver minhas conversas"
+        },
+        {
+          "text": "quero ver minhas mensagens"
+        },
+        {
+          "text": "Whatsapp"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Data_e_hora",
+      "examples": [
+        {
+          "text": "como ajeitar a data no telefone?"
+        },
+        {
+          "text": "como ajeitar a hora no telefone?"
+        },
+        {
+          "text": "Como alterar a data no celular?"
+        },
+        {
+          "text": "Como alterar a hora no celular?"
+        },
+        {
+          "text": "Mudar a data no telefone"
+        },
+        {
+          "text": "Mudar a hora no telefone"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Fazer_ligacao",
+      "examples": [
+        {
+          "text": "como faço pra ligar pra uma pessoa?"
+        },
+        {
+          "text": "Como fazer uma ligação?"
+        },
+        {
+          "text": "como realizar uma ligação?"
+        },
+        {
+          "text": "quero fazer uma ligação"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "galeria",
+      "examples": [
+        {
+          "text": "como vejo as fotos que foram tiradas?"
+        },
+        {
+          "text": "como vejo as imagens no celular?"
+        },
+        {
+          "text": "quero ver a galeria"
+        },
+        {
+          "text": "ver fotos do celular"
+        },
+        {
+          "text": "ver fotos tiradas"
+        },
+        {
+          "text": "ver imagens do celular"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Você tem um nome?"
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "obrigado, tchau!"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "oi assistente!"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Está se divertindo?"
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        },
+        {
+          "text": "Vamos nos divertir!"
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Você não vale nada."
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        },
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        },
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        },
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "Gerenciar_apps",
+      "examples": [
+        {
+          "text": "Como faço pra desinstalar um app?"
+        },
+        {
+          "text": "como gerencio os apps?"
+        },
+        {
+          "text": "como vejo as especificações do app?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ligar_de_contato_guardado",
+      "examples": [
+        {
+          "text": "eu não lembro o numero"
+        },
+        {
+          "text": "mas não lembro o numero"
+        },
+        {
+          "text": "quero ligar de um contato na agenda"
+        },
+        {
+          "text": "quero ligar de um numero guardado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pesquisa_internet",
+      "examples": [
+        {
+          "text": "Como faço pra pesquisar algo na internet?"
+        },
+        {
+          "text": "quero fazer uma pesquisa"
+        },
+        {
+          "text": "quero navegar na internet"
+        },
+        {
+          "text": "quero pesquisar algo na internet"
+        }
+      ],
+      "description": "orientações para realizar uma pesquisa na internet."
+    },
+    {
+      "intent": "Tela_celular",
+      "examples": [
+        {
+          "text": "como aumentar o brilho da tela?"
+        },
+        {
+          "text": "como baixo o brilho da tela?"
+        },
+        {
+          "text": "como mudar o brilho da tela"
+        }
+      ],
+      "description": "sobre o visor do celular"
+    },
+    {
+      "intent": "Videos",
+      "examples": [
+        {
+          "text": "Como vejo os videos feitos?"
+        },
+        {
+          "text": "como vejo os videos que gravei?"
+        },
+        {
+          "text": "quero ver meus vídeos"
+        },
+        {
+          "text": "ver videos"
+        },
+        {
+          "text": "ver videos gravados"
+        }
+      ],
+      "description": "pergunta sobre videos"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "apps_mensagem",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "messenger",
+          "synonyms": [
+            "mensenger",
+            "messenger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "whatsapp",
+          "synonyms": [
+            "zap",
+            "zapzap",
+            "zap zap"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "contatos",
+          "synonyms": [
+            "agenda",
+            "numero",
+            "telefone",
+            "telefones"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Bem vindo ao assistente!"
+              },
+              {
+                "text": "Como posso ajudar vc?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe! Eu não entendi. Você pode tentar reformular a frase?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1559245670648"
+    },
+    {
+      "type": "folder",
+      "title": "Auxílios de Contatos",
+      "dialog_node": "node_10_1573070557594",
+      "previous_sibling": "node_1_1559245558273"
+    },
+    {
+      "type": "standard",
+      "title": "Tela do celular",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deslize o seu dedo na tela de cima para baixo, o que lhe mostrará a tela de notificações e ações rápidas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Imagem de exemplo",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAp4vRuOVxWcRnGxJA01CZoBl3ezJjufO8w-jFQf9RZhpDanCM",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Na imagem há uma barra horizontal com uma bolinha, mova ela ou para esquerda ou para a direita, assim vc altera o brilho da tela do celular."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRe_yGTJtRWSYHvpqTr5RbZwPeXDtUpHbqObElt_Scxg-BsGsh",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Na tela há opções de ações que vc possa querer fazer como ligar ou desligar o wifi, Bluetooth..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1573070414137",
+      "conditions": "#Tela_celular",
+      "dialog_node": "node_10_1573070759847",
+      "previous_sibling": "node_5_1560200207649"
+    },
+    {
+      "type": "standard",
+      "title": "Configurações do navegador",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1573070690188",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#config_navegador",
+      "dialog_node": "node_10_1573071298622",
+      "previous_sibling": "node_9_1573068501053"
+    },
+    {
+      "type": "standard",
+      "title": "Videos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ver seus videos você pode tocar no ícone ou da galeria ou de videos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1573072937719",
+      "conditions": "#Videos",
+      "dialog_node": "node_10_1573663905016",
+      "previous_sibling": "node_3_1573072970131"
+    },
+    {
+      "type": "standard",
+      "title": "Iniciação de conversa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que vc precisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1559245558273",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "pergunta sobre contatos",
+      "output": {
+        "generic": [
+          {
+            "title": "Contatos",
+            "source": "https://www.dummies.com/wp-content/uploads/486955.image0.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Toque no icone de contatos para ver seus contatos"
+              },
+              {
+                "text": "Seus números de contatos vão estar em ordem alfabética!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1573070557594",
+      "context": {},
+      "metadata": {},
+      "conditions": "#contatos_celular || $contatos",
+      "dialog_node": "node_1_1560193989545"
+    },
+    {
+      "type": "folder",
+      "title": "Auxílios de Configurações",
+      "dialog_node": "node_1_1573070414137",
+      "previous_sibling": "node_10_1573070557594"
+    },
+    {
+      "type": "folder",
+      "title": "Auxílios de Internet",
+      "dialog_node": "node_1_1573070690188",
+      "previous_sibling": "node_1_1573070414137"
+    },
+    {
+      "type": "standard",
+      "title": "Action_despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, até logo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1559245670648",
+      "previous_sibling": "node_2_1560194096209"
+    },
+    {
+      "type": "standard",
+      "title": "Action para outros auxilios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quer perguntar mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#continuando",
+      "dialog_node": "node_2_1560194096209",
+      "previous_sibling": "node_9_1573072937719"
+    },
+    {
+      "type": "standard",
+      "title": "Imagens",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ver suas fotos ou imagens, clique no ícone da galeria."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Galeria",
+            "source": "https://www.pngkit.com/png/full/522-5223582_samsung-gallery-icon-png-clipart-samsung-galaxy-s6.png",
+            "description": "Na maioria dos smartphones o icone padrão é semelhante ao que vc vê",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1573072937719",
+      "conditions": "#galeria",
+      "dialog_node": "node_3_1573072970131",
+      "previous_sibling": "node_5_1573072950035"
+    },
+    {
+      "type": "standard",
+      "title": "gerenciar aplicativos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para poder gerenciar os aplicativos, vá ate o menu de configurações tocando no icone:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Configurações",
+            "source": "https://cdn6.aptoide.com/imgs/8/0/1/801cdd7e88b5efae9a07742478bad9af_icon.png?w=240",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Procure por gerenciamento de aplicações,  toque nela e depois escolha o aplicativo que vc quer gerenciar. A imagem a baixo é um exemplo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "no menu de configurações",
+            "source": "http://s2.glbimg.com/thGmsGZb74e3u6RhXSbcKT3YzQ4=/695x0/s.glbimg.com/po/tt2/f/original/2016/03/18/passo-224.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1573070414137",
+      "metadata": {},
+      "conditions": "#Gerenciar_apps",
+      "dialog_node": "node_5_1560200207649",
+      "previous_sibling": "node_7_1560193161861"
+    },
+    {
+      "type": "standard",
+      "title": "Documentos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ver as pastas onde os seu arquivos estão guardados toque no ícone da pasta de arquivo no seu menu principal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "icone: meus documentos ",
+            "source": "https://images-na.ssl-images-amazon.com/images/I/41pKYQ2IYgL.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois toque em meus arquivos, assim será mostrado uma lista em ordem alfabética de pastas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1573072937719",
+      "conditions": "#Arquivos || $documentos",
+      "dialog_node": "node_5_1573072950035"
+    },
+    {
+      "type": "standard",
+      "title": "ligação telefonica",
+      "output": {
+        "generic": [
+          {
+            "title": "Telofone",
+            "source": "http://www.oftalmologiashigueosusuki.com.br/wp-content/uploads/2018/04/telefone-iocone.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Toque o icone para acessar o teclado de numeros e fazer ligações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "No teclado de números digite o numero do telefone e depois toque no desenho do telefone de baixo do número zero"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "exemplo",
+            "source": "https://cdn.blog.psafe.com/blog/wp-content/uploads/2016/10/2.2.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1573070557594",
+      "metadata": {},
+      "conditions": "#Fazer_ligacao || $ligar",
+      "dialog_node": "node_6_1560200226960",
+      "previous_sibling": "node_1_1560193989545"
+    },
+    {
+      "type": "folder",
+      "title": "Auxílios de app de mensagem",
+      "dialog_node": "node_6_1573071606508",
+      "previous_sibling": "node_1_1573070690188"
+    },
+    {
+      "type": "standard",
+      "title": "configurações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Toque no icone engrenagem para acessar as configurações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "configurações",
+            "source": "https://cdn6.aptoide.com/imgs/8/0/1/801cdd7e88b5efae9a07742478bad9af_icon.png?w=240",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "No menu aparece todas as ferramentas como wifi, bluetooth, visor, som, contas, acessibilidade, sobre o celular e outras funções."
+              },
+              {
+                "text": "Para ir navegando pelo menu vc só precisa deslisar a tela para cima ou para baixo e tocar na ação que vc quiser."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1573070414137",
+      "metadata": {},
+      "conditions": "#configuracoes_celular",
+      "dialog_node": "node_7_1560193161861"
+    },
+    {
+      "type": "standard",
+      "title": "Ligar da Agenda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quando vc estiver no teclado de telefone e quiser  ligar de um contato da agenda, toque na opção contatos que está entre as 4 opções listadas acima do teclado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "opções de discagem telefone",
+            "source": "https://cdn.blog.psafe.com/blog/wp-content/uploads/2016/10/2.2.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Vc vai para a lista de números que tem guardado."
+              },
+              {
+                "text": "procure o contato para qual quer ligar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "depois toque nele e depois toque no icone de telefone ao lado do número pra fazer a ligação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1573070557594",
+      "metadata": {},
+      "conditions": "#Ligar_de_contato_guardado || @telefone",
+      "dialog_node": "node_7_1560201434796",
+      "previous_sibling": "node_6_1560200226960"
+    },
+    {
+      "type": "standard",
+      "title": "Ver Conversas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ver suas conversas você deve acessar o aplicativo de mensagens de sua escolha. Os exemplos estão abaixo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "apps de mensagens",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJpp1GVNfa2qVJo9rQ2WTxRwroAhTml02aqQtpg-bj2Xt02uqg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois de abrir o aplicativo é só tocar na conversa que deseja ver ou iniciar!"
+              },
+              {
+                "text": "suas conversas estão em ordem de hora e data."
+              },
+              {
+                "text": "A ultima pessoa ou grupo com quem vc falou aparecerá primeiro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1573071606508",
+      "conditions": "#Conversas || @apps_mensagem",
+      "dialog_node": "node_7_1573071648152"
+    },
+    {
+      "type": "standard",
+      "title": "Data e hora",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A forma mais rápida de ajustar o seu relógio é: Deslize o seu dedo na tela de cima para baixo, o que lhe mostrará a tela de notificações e ações rápidas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "imagem de exemplo",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRe_yGTJtRWSYHvpqTr5RbZwPeXDtUpHbqObElt_Scxg-BsGsh",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois toque onde ta mostrando a hora e a data. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "na tela aparece as opções sobre hora e data: formato da hora, formato da data, fuso horário automático, entre outras."
+              },
+              {
+                "text": "escolha definir hora para ajustar as horas."
+              },
+              {
+                "text": "escolha definir data para ajustar a data."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1573070414137",
+      "conditions": "#Data_e_hora",
+      "dialog_node": "node_8_1573072291913",
+      "previous_sibling": "node_10_1573070759847"
+    },
+    {
+      "type": "standard",
+      "title": "Fazer uma pesquisa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selecione um dos navegadores de internet que tem no seu celular. Abaixo tem os exemplos de navegadores mais usados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Navegadores mais utilizados",
+            "source": "https://miro.medium.com/max/7868/1*Dg8dR-vyRRqQIQC_UEc1-Q.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois de selecionar o navegador aparecerá a tela de pesquisa como no exemplo mostrado abaixo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "tela do navegador GOOGLE CHROME",
+            "source": "https://s.yimg.com/ny/api/res/1.2/TEqyFOM9K5D2I2UsTVwneA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/pt-BR/homerun/canal_tech_990/ee36180f0e01580040b27af1b7a61f8c",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1573070690188",
+      "conditions": "#pesquisa_internet",
+      "dialog_node": "node_9_1573068501053"
+    },
+    {
+      "type": "folder",
+      "title": "Auxílios de Arquivos",
+      "dialog_node": "node_9_1573072937719",
+      "previous_sibling": "node_6_1573071606508"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1573071298622",
+      "disabled": true,
+      "dialog_node": "response_4_1573671893447"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Conversational skill tutorial",
+  "language": "pt-br",
+  "description": ""
+}
